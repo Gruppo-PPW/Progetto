@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ef13667-8c24-473f-a822-107cb5fe0ed0" name="Changes" comment="Commit n^4 Progetto Base">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2ef13667-8c24-473f-a822-107cb5fe0ed0" name="Changes" comment="Commit n^5 Progetto Base">
+      <change afterPath="$PROJECT_DIR$/resources/views/TdP.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/bandiera.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/iLovePizza.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/loading_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/napoli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/piz_ing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/piz_ita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pizza_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/roma.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,21 +105,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Università/UN/Miei/MO/schema mentale.txt&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.make&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Università/UN/Miei/MO/schema mentale.txt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.make",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -141,6 +150,7 @@
       <workItem from="1670841717183" duration="527000" />
       <workItem from="1670843078945" duration="822000" />
       <workItem from="1670863354913" duration="657000" />
+      <workItem from="1670928805547" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary="Commit di prova n^0">
       <created>1670426123591</created>
@@ -177,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670843166775</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit n^5 Progetto Base">
+      <created>1670929104896</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670929104896</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +228,7 @@
     <MESSAGE value="Commit di prova n^00" />
     <MESSAGE value="Commit n^1 Progetto Base" />
     <MESSAGE value="Commit n^4 Progetto Base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit n^4 Progetto Base" />
+    <MESSAGE value="Commit n^5 Progetto Base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit n^5 Progetto Base" />
   </component>
 </project>
