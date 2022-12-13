@@ -1,45 +1,181 @@
+<html>
 <head>
     <title>Tipi di pizze</title>
     <style>
-     .pp{
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: medium;
+        .pp{
+            font-family:  'Mr Dafoe', cursive;
+            font-size:27;
+            color:#019120;
         }
 
-    .h1
+        .p{
+            font-family: 'Mr Dafoe', cursive;
+            font-size:50;
+            color:#06731d;
+        }
+
+        .td
         {
+            border:solid 18px  black;
+        }
+
+        .button {
+            width: 180px;
+            padding: .5em;
+            color: #ffffff;
+            text-shadow: 1px 1px 1px #000;
+            border: solid thin #c70e04;
+            -webkit-border-radius: .7em;
+            -moz-border-radius: .7em;
+            border-radius: .7em;
+            -webkit-box-shadow: 2px 2px 3px #ff1000;
+            box-shadow: 2px 2px 2px #bbb;
+            background: rgb(255,0,0);
+            background: linear-gradient(90deg, rgba(255,255,255,1) 20%, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 80%);
+            font-size: 28px;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
 
-    .td
-        {
-        border:solid 18px  black;
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
         }
 
-     </style>
- </head>
- <body>
-     
-         <center>
-         <img src="logo.png">
-         </center>
- 
-         <center>
-             <img src="bandiera.gif"><br><br>
-         </center>
-         <br><br>
-         <center><h1>Tipi di pizza</h1>
-         </center>
- <br><br>
+        .button span:after {
+            content: '\21E9';
+            color:white;
+            position: bottom;
+            opacity: 0;
+            top: 0;
+            right: -50px;
+            transition: 0.5s;
+        }
 
- <center>
-    <table>
-        <td><pp><B>Pizza italiana</B></pp><br><img src="piz_ita.jpg" width="300" height="300"><br><center><font size=40>&darr;</font></center><br><center><pp>(Descrizione e categorie)</pp></center></td>
-        <td><pp><B>Pizza inglese</B></pp><br><img src="piz_ing.jpg" width="300" height="300"><br><center><font size=40>&darr;</font></center><br><center><pp>(Descrizione e categorie)</pp></center></td>
-    </table> 
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .b2 {
+            width: 180px;
+            padding: .5em;
+            color: #ffffff;
+            text-shadow: 1px 1px 1px #000;
+            border: solid thin green;
+            -webkit-border-radius: .7em;
+            -moz-border-radius: .7em;
+            border-radius: .7em;
+            -webkit-box-shadow: 2px 2px 3px #ff1000;
+            box-shadow: 2px 2px 2px #bbb;
+            background: rgb(3,209,71);
+            background: linear-gradient(90deg, rgba(3,209,71,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 65%, rgba(255,0,0,1) 100%);
+            font-size: 28px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .b2 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .b2 span:after {
+            content: '\21E9';
+            color:green;
+            position: bottom;
+            opacity: 0;
+            top: 0;
+            right: -50px;
+            transition: 0.5s;
+        }
+
+        .b2:hover span {
+            padding-right: 25px;
+        }
+
+        .b2:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .bh {
+            width: 180px;
+            padding: .5em;
+            color: white;
+            text-shadow: 1px 1px 1px #000;
+            border: solid thin green;
+            -webkit-border-radius: .7em;
+            -moz-border-radius: .7em;
+            border-radius: .7em;
+            -webkit-box-shadow: 2px 2px 3px #ff1000;
+            box-shadow: 2px 2px 2px #bbb;
+            background: rgb(0,88,8);
+            background: linear-gradient(0deg, rgba(0,88,8,1) 0%, rgba(0,103,10,1) 50%, rgba(1,226,22,1) 100%);
+            font-size: 28px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .bh span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .bh span:after {
+            content: '\21E6';
+            color:white;
+            position: bottom;
+            opacity: 0;
+            top: 0;
+            right: -50px;
+            transition: 0.5s;
+        }
+
+        .bh:hover span {
+            padding-left: 25px;
+        }
+
+        .bh:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<center>
+    <img src="logo.png" width="1200px">
 </center>
 
+<center>
+    <img src="bandiera.gif" width="1200px"><br><br>
+</center>
+<br><br>
 
+<center>
+    <p class="p">Tipi di pizza</p>
+</center>
+<br><br>
 
- </body>
- </html>
+<center>
+    <table>
+        <td><pp class="pp">&nbsp&nbsp&nbsp&nbspPizza italiana</pp><br><button class="b2" style="vertical-align:middle"><span><img src="piz_ita.jpg" border="ridge" width="150" height="150"><br></span></button><center><font size=40>&darr;</font></center><br><center><pp>(Descrizione e categorie)</pp></center></td>
+        <td><pp class="pp">&nbsp&nbsp&nbsp&nbspPizza romana</pp><br><button class="b2" style="vertical-align:middle"><span><img src="roma.jpg" border="ridge" width="150" height="150"><br></span></button><center><font size=40>&darr;</font></center><br><center><pp>(Descrizione e categorie)</pp></center></td>
+        <td><pp class="pp">&nbsp&nbspPizza napoletana</pp><br><button class="b2" style="vertical-align:middle"><span><img src="napoli.jpg" border="ridge" width="150" height="150"><br></span></button><center><font size=40>&darr;</font></center><br><center><pp>(Descrizione e categorie)</pp></center></td>
+        <td><pp class="pp">&nbsp&nbsp&nbsp&nbspPizza inglese</pp><br><button class="button" style="vertical-align:middle"><span><img src="piz_ing.jpg" border="ridge" width="150" height="150"><br></span></button><center><font size=40>&darr;</font></center><br><center><pp>(Descrizione e categorie)</pp></center></td>
+    </table>
+</center>
+
+<button class=bh style="vertical-align:left"><a href="iLovePizza.html" style="color:white;"><span>HOME&nbsp&nbsp</span></a></button>
+
+</body>
+</html>
