@@ -1,12 +1,14 @@
-Progetto PPW:
+Progetto PPW
 
 a cura DI :
-Lauriola Francesco,
 Bizzarra Andrea,
 Avella Davide,
-Dimitri Daniele.
+Dimitri Daniele,
+Lauriola Francesco.
 
-Progetto Realizzato con:
+Da fare(per ora):
+-database per login;
+-ampliamento sito.
 
 PHP 7.4.33 ((php -version))
 Laravel 5.4 ((php artisan --version))
